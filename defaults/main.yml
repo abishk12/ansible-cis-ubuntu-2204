@@ -319,7 +319,7 @@ cis_ubuntu2204_config_aide: true
 cis_ubuntu2204_set_boot_pass: false
 cis_ubuntu2204_disable_boot_pass: true
 # gdm allow, else remove (cis_ubuntu2204_rule_1_8_*)
-cis_ubuntu2204_allow_gdm_gui: false
+cis_ubuntu2204_allow_gdm_gui: true
 # cups allow printer service, else remove (cis_ubuntu2204_rule_2_2_3)
 cis_ubuntu2204_allow_cups: false
 # ipv6 is required (cis_ubuntu2204_rule_3_1_1)
