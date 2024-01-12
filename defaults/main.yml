@@ -56,7 +56,7 @@ cis_ubuntu2204_rule_1_3_1: true # NOTE: depends also on 'cis_ubuntu2204_config_a
 cis_ubuntu2204_rule_1_3_2: true # NOTE: depends also on 'cis_ubuntu2204_config_aide|cis_ubuntu2204_install_aide'
 cis_ubuntu2204_rule_1_4_1: false # NOTE: depends also on 'cis_ubuntu2204_set_boot_pass'
 cis_ubuntu2204_rule_1_4_2: true
-cis_ubuntu2204_rule_1_4_3: false
+cis_ubuntu2204_rule_1_4_3: true
 cis_ubuntu2204_rule_1_5_1: true
 cis_ubuntu2204_rule_1_5_2: true
 cis_ubuntu2204_rule_1_5_3: true
@@ -71,8 +71,8 @@ cis_ubuntu2204_rule_1_7_3: true
 cis_ubuntu2204_rule_1_7_4: true
 cis_ubuntu2204_rule_1_7_5: true
 cis_ubuntu2204_rule_1_7_6: true
-cis_ubuntu2204_rule_1_8_1: true
-cis_ubuntu2204_rule_1_8_2: true # NOTE: depends also on 'cis_ubuntu2204_allow_gdm_gui'
+cis_ubuntu2204_rule_1_8_1: false
+cis_ubuntu2204_rule_1_8_2: false # NOTE: depends also on 'cis_ubuntu2204_allow_gdm_gui'
 cis_ubuntu2204_rule_1_8_3: true # NOTE: depends also on 'cis_ubuntu2204_allow_gdm_gui'
 cis_ubuntu2204_rule_1_8_4: true # NOTE: depends also on 'cis_ubuntu2204_allow_gdm_gui'
 cis_ubuntu2204_rule_1_8_5: true # NOTE: depends also on 'cis_ubuntu2204_allow_gdm_gui'
