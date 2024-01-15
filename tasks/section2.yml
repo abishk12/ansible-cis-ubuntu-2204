@@ -45,7 +45,7 @@
     mode: "0644"
     owner: root
     group: root
-  notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
+  #notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
   when:
     - cis_ubuntu2204_rule_2_1_2_1
     - cis_ubuntu2204_time_synchronization_service == "chrony"
