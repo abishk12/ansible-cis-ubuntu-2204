@@ -70,7 +70,7 @@
         mode: "0644"
         owner: root
         group: root
-      notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
+      #notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
     - name: "SECTION2 | 2.1.2.2 | Ensure chrony is running as user _chrony | set in chronyd"
       ansible.builtin.lineinfile:
         dest: /etc/sysconfig/chronyd
@@ -81,7 +81,7 @@
         owner: root
         group: root
         mode: "0644"
-      notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
+      #notify: "restart {{ cis_ubuntu2204_time_synchronization_service }}"
 
 # NOTE: SECTION2 | 2.1.2.3 | Ensure chrony is enabled and running
 ##      is done since it is started and enabled default in jobs above
