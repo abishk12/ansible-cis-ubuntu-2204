@@ -356,7 +356,7 @@ cis_ubuntu2204_time_synchronization_ntp_fallback_server: ntp.ubuntu.com
 # general path for sysctl conf file
 cis_ubuntu2204_sysctl_file_path: /etc/sysctl.conf
 # choose firewall (cis_ubuntu2204_rule_3_5_*)
-cis_ubuntu2204_firewall: ufw # ufw | nftables | iptables
+cis_ubuntu2204_firewall: iptables
 # define if outgoing traffic should be default deny or allow (cis_ubuntu2204_rule_3_5_1_7)
 cis_ubuntu2204_firewall_ufw_outgoing_policy: allow # deny | allow
 # defined nftable table name (cis_ubuntu2204_rule_3_5_2_4)
