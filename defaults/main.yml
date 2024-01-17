@@ -7,7 +7,7 @@
 # ---------------------------------------
 cis_ubuntu2204_section1: false
 cis_ubuntu2204_section2: false
-cis_ubuntu2204_section3: false
+cis_ubuntu2204_section3: true
 cis_ubuntu2204_section4: false
 cis_ubuntu2204_section5: false
 cis_ubuntu2204_section6: false
@@ -118,21 +118,21 @@ cis_ubuntu2204_rule_2_3_6: true
 cis_ubuntu2204_rule_2_4: true
 ## SECTION 3 rules
 cis_ubuntu2204_rule_3_1_1: true # NOTE: depends also on 'cis_ubuntu2204_required_ipv6'
-cis_ubuntu2204_rule_3_1_2: true
-cis_ubuntu2204_rule_3_2_1: true
-cis_ubuntu2204_rule_3_2_2: true
-cis_ubuntu2204_rule_3_3_1: true
-cis_ubuntu2204_rule_3_3_2: true
-cis_ubuntu2204_rule_3_3_3: true
-cis_ubuntu2204_rule_3_3_4: true
-cis_ubuntu2204_rule_3_3_5: true
+cis_ubuntu2204_rule_3_1_2: false
+cis_ubuntu2204_rule_3_2_1: false
+cis_ubuntu2204_rule_3_2_2: false
+cis_ubuntu2204_rule_3_3_1: false
+cis_ubuntu2204_rule_3_3_2: false
+cis_ubuntu2204_rule_3_3_3: false
+cis_ubuntu2204_rule_3_3_4: false
+cis_ubuntu2204_rule_3_3_5: false
 cis_ubuntu2204_rule_3_3_6: true
-cis_ubuntu2204_rule_3_3_7: true
+cis_ubuntu2204_rule_3_3_7: false
 cis_ubuntu2204_rule_3_3_8: true
 cis_ubuntu2204_rule_3_3_9: true
-cis_ubuntu2204_rule_3_4_1: true
-cis_ubuntu2204_rule_3_4_2: true
-cis_ubuntu2204_rule_3_4_3: true
+cis_ubuntu2204_rule_3_4_1: false
+cis_ubuntu2204_rule_3_4_2: false
+cis_ubuntu2204_rule_3_4_3: false
 cis_ubuntu2204_rule_3_4_4: true
 cis_ubuntu2204_rule_3_5_1_1: true # NOTE: 'cis_ubuntu2204_firewall == ufw'
 cis_ubuntu2204_rule_3_5_1_2: true # NOTE: 'cis_ubuntu2204_firewall == ufw'
