@@ -37,7 +37,7 @@
     dest: "{{ cis_ubuntu2204_default_grub_file }}"
     regexp: '^(GRUB_CMDLINE_LINUX=(?!.*audit)\"[^\"]*)(\".*)'
     replace: '\1 audit=1\2'
-  notify: update-grub
+ # notify: update-grub
   when:
     - cis_ubuntu2204_rule_4_1_1_3
   tags:
@@ -50,7 +50,7 @@
     dest: "{{ cis_ubuntu2204_default_grub_file }}"
     regexp: '^(GRUB_CMDLINE_LINUX=(?!.*audit_backlog_limit)\"[^\"]*)(\".*)'
     replace: '\1 audit_backlog_limit={{ cis_ubuntu2204_audit_backlog_limit }}\2'
-  notify: update-grub
+ # notify: update-grub
   when:
     - cis_ubuntu2204_rule_4_1_1_4
   tags:
