@@ -245,7 +245,7 @@ cis_ubuntu2204_rule_5_2_12: false
 cis_ubuntu2204_rule_5_2_13: false
 cis_ubuntu2204_rule_5_2_14: false
 cis_ubuntu2204_rule_5_2_15: false
-cis_ubuntu2204_rule_5_2_16: fase
+cis_ubuntu2204_rule_5_2_16: false
 cis_ubuntu2204_rule_5_2_17: true
 cis_ubuntu2204_rule_5_2_18: false
 cis_ubuntu2204_rule_5_2_19: false
