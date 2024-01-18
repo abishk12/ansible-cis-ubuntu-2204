@@ -7,8 +7,8 @@
 # ---------------------------------------
 cis_ubuntu2204_section1: false
 cis_ubuntu2204_section2: false
-cis_ubuntu2204_section3: true
-cis_ubuntu2204_section4: false
+cis_ubuntu2204_section3: false
+cis_ubuntu2204_section4: true
 cis_ubuntu2204_section5: false
 cis_ubuntu2204_section6: false
 
@@ -202,23 +202,23 @@ cis_ubuntu2204_rule_4_1_4_8: true
 cis_ubuntu2204_rule_4_1_4_9: true
 cis_ubuntu2204_rule_4_1_4_10: true
 cis_ubuntu2204_rule_4_1_4_11: true # NOTE: depends also on 'cis_ubuntu2204_config_aide'
-cis_ubuntu2204_rule_4_2_1_1_1: true
-cis_ubuntu2204_rule_4_2_1_1_2: true
-cis_ubuntu2204_rule_4_2_1_1_3: true
-cis_ubuntu2204_rule_4_2_1_1_4: true
+cis_ubuntu2204_rule_4_2_1_1_1: false
+cis_ubuntu2204_rule_4_2_1_1_2: false
+cis_ubuntu2204_rule_4_2_1_1_3: false
+cis_ubuntu2204_rule_4_2_1_1_4: false
 cis_ubuntu2204_rule_4_2_1_2: true
 cis_ubuntu2204_rule_4_2_1_3: true
 cis_ubuntu2204_rule_4_2_1_4: true
 cis_ubuntu2204_rule_4_2_1_5: true
 cis_ubuntu2204_rule_4_2_1_6: true
 cis_ubuntu2204_rule_4_2_1_7: true
-cis_ubuntu2204_rule_4_2_2_1: true
-cis_ubuntu2204_rule_4_2_2_2: true
-cis_ubuntu2204_rule_4_2_2_3: true
-cis_ubuntu2204_rule_4_2_2_4: true
-cis_ubuntu2204_rule_4_2_2_5: true
-cis_ubuntu2204_rule_4_2_2_6: true
-cis_ubuntu2204_rule_4_2_2_7: true
+cis_ubuntu2204_rule_4_2_2_1: false
+cis_ubuntu2204_rule_4_2_2_2: false
+cis_ubuntu2204_rule_4_2_2_3: false
+cis_ubuntu2204_rule_4_2_2_4: false
+cis_ubuntu2204_rule_4_2_2_5: false
+cis_ubuntu2204_rule_4_2_2_6: false
+cis_ubuntu2204_rule_4_2_2_7: false
 cis_ubuntu2204_rule_4_2_3: true
 ## SECTION 5 rules
 cis_ubuntu2204_rule_5_1_1: true
