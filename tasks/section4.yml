@@ -467,7 +467,7 @@
     owner: root
     group: root
     mode: "0600"
-  notify: load audit rules
+ # notify: load audit rules
   when:
     - cis_ubuntu2204_rule_4_1_3_20
   tags:
