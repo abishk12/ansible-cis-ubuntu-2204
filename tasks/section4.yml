@@ -825,7 +825,7 @@
     owner: root
     group: root
     mode: "0644"
-  notify: restart systemd-journald
+#  notify: restart systemd-journald
   when:
     - cis_ubuntu2204_rule_4_2_1_3
   tags:
@@ -843,7 +843,7 @@
     owner: root
     group: root
     mode: "0644"
-  notify: restart systemd-journald
+ # notify: restart systemd-journald
   when:
     - cis_ubuntu2204_rule_4_2_1_4
   tags:
@@ -860,7 +860,7 @@
     owner: root
     group: root
     mode: "0644"
-  notify: restart systemd-journald
+#  notify: restart systemd-journald
   when:
     - cis_ubuntu2204_rule_4_2_1_5
   tags:
