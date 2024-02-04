@@ -49,7 +49,7 @@ cis_ubuntu2204_rule_1_1_8_1: true
 cis_ubuntu2204_rule_1_1_8_2: true
 cis_ubuntu2204_rule_1_1_8_3: true
 cis_ubuntu2204_rule_1_1_9: true # NOTE: depends also on 'cis_ubuntu2204_allow_autofs'
-cis_ubuntu2204_rule_1_1_10: true
+cis_ubuntu2204_rule_1_1_10: false
 cis_ubuntu2204_rule_1_2_1: true
 cis_ubuntu2204_rule_1_2_2: true
 cis_ubuntu2204_rule_1_3_1: true # NOTE: depends also on 'cis_ubuntu2204_config_aide|cis_ubuntu2204_install_aide'
